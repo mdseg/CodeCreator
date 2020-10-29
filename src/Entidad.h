@@ -21,7 +21,7 @@ int print_estructura_initEstructura(char* tipoEstructura);
 int print_estructura_findEstructuraById(char* tipoEstructura);
 int print_estructura_searchFreeIndex(char* tipoEstructura);
 void print_cFile(char* tipoEstructura, Campo* campoList[]);
-void print_hFile(char* tipoEstructura, char* campoIngresado, char* tipoCampoIngresado, Campo* campoList[]);
+void print_hFile(char* tipoEstructura, Campo* campoList[]);
 void print_estructura_generateId(void);
 
 
